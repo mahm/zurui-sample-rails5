@@ -8,15 +8,20 @@ end
 gem 'rails', '~> 5.1.3'
 gem 'pg'
 gem 'puma', '~> 3.7'
-gem 'sass-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 # add
+gem 'sassc-rails'
 gem 'bootstrap', '~> 4.0.0.beta2'
 gem 'font-awesome-sass-rails'
+gem 'hamlit'
+gem 'zurui-sass-rails'
+
+# for test
+#gem 'zurui-sass-rails', git: 'git@github.com:mahm/zurui-sass-rails.git', branch: 'version/0.1.0', submodules: true
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

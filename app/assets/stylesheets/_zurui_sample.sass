@@ -1,0 +1,82 @@
+=sample
+  letter-spacing: 1px
+  padding: 10px
+  +zurui-ts-000(.1)
+
+=lines-sample
+  +sample
+  +zurui-box-outer
+  width: 180px
+  height: 80px
+  background-color: #eee
+
+.zurui-line-top
+  +lines-sample
+  +zurui-line-top(.1, 1.0)
+
+.zurui-line-right
+  +lines-sample
+  +zurui-line-right(.1, 1.0)
+
+.zurui-line-left
+  +lines-sample
+  +zurui-line-left(.1, 1.0)
+
+.zurui-line-bottom
+  +lines-sample
+  +zurui-line-bottom(.1, 1.0)
+
+=shadows-sample
+  font-size: 24px
+  padding: 20px
+  font-weight: 800
+
+.zurui-ts-000
+  +shadows-sample
+  +zurui-ts-000(.1)
+
+.zurui-ts-fff
+  +shadows-sample
+  +zurui-ts-fff(.1)
+
+=gradations-sample
+  +sample
+  width: 180px
+  height: 80px
+  color: white
+  border-radius: 4px
+  +zurui-box-outer
+
+.zurui-gradient-top-lighten
+  +gradations-sample
+  +zurui-gradient-top-lighten
+
+.zurui-gradient-top-darken
+  +gradations-sample
+  +zurui-gradient-top-darken
+
+=box-shadows-sample
+  +sample
+  width: 180px
+  height: 80px
+  border-radius: 4px
+
+.zurui-box-outer
+  +box-shadows-sample
+  +zurui-box-outer
+  background-color: #ccc
+
+.zurui-box-inner
+  +box-shadows-sample
+  +zurui-box-inner
+  background-image: image-url("bedge_grunge.png")
+
+.zurui-box-deboss
+  +box-shadows-sample
+  +zurui-box-deboss(.1, .4, .7)
+  background-color: #eee
+
+.zurui-box-emboss
+  +box-shadows-sample
+  +zurui-box-emboss(.1, .2, .7)
+  background-color: #eee
